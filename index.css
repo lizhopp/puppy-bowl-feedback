@@ -18,14 +18,14 @@ main {
   }
 }
 
-.puppies {
+.players {
   display: grid;
   gap: 1ch;
   padding-left: 0;
   list-style-type: none;
 }
 
-.puppies a {
+.players a {
   display: block;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
@@ -34,12 +34,12 @@ main {
   color: black;
 }
 
-.puppies a:hover {
+.players a:hover {
   background: #eee;
   font-style: italic;
 }
 
-.puppies li.selected {
+.players li.selected {
   font-weight: bold;
   font-style: italic;
 }
